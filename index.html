@@ -8,16 +8,17 @@
     <title>Course Home Page</title>
     <link rel="stylesheet" href="styles/homepage.css">
     <script src="scripts/homepage.js" defer></script>
+    <script src="scripts/course.js" defer></script> <!-- Added for course list -->
 </head>
 <body>
     <header>
-        
+        <img src="images/ncape.webp" alt="Site Logo"> <!-- Placeholder for logo -->
         <span>Onkabetse Galehole</span>
         <button id="hamburger">☰</button>
     </header>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="chamber.html">Chamber</a></li>
             <li><a href="final.html">Final</a></li>
         </ul>
@@ -25,17 +26,18 @@
     <main>
         <h1>Home</h1>
         <section>
-            <h2>Web and computer programming</h2>
-            <div id="course-list"></div>
+            <h2>Web and Computer Programming</h2>
+            <div id="course-list"></div> <!-- This will be populated by JavaScript -->
         </section>
         <section>
-            <h2>Obnkabetse Galehole</h2>
-            <p>My name is Onkabetse Galehole ,I am 22 years old and Im from a small town called kuruman in the </p>
-            <p>Northern Cape Province .Im currently a Software Development student a BYU idaho online ,i have</p>
-            <p>passion for coding .I like going to the Gym ,Church and going out to meet new people</p>       
+            <h2>About Me</h2>
+            <p>My name is Onkabetse Galehole. I am 22 years old and I'm from a small town called Kuruman in the Northern Cape Province.</p>
+            <p>I'm currently a Software Development student at BYU Idaho online. I have a passion for coding. I enjoy going to the gym, church, and meeting new people.</p>
+        </section>
         <section>
             <h2>Contact</h2>
-            <p>064 774 7154 onkabetsenkabi3@gmail.com</p>
+            <p>Phone: 064 774 7154</p>
+            <p>Email: <a href="mailto:onkabetsenkabi3@gmail.com">onkabetsenkabi3@gmail.com</a></p>
         </section>
     </main>
     <footer>
