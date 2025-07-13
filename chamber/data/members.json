@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Business One",
+        "address": "123 Main St, Kuruman",
+        "phone": "555-1234",
+        "website": "http://businessone.com",
+        "image": "images/business1.jpg",
+        "membershipLevel": 1
+    },
+    {
+        "name": "Business Two",
+        "address": "456 Elm St, Kuruman ",
+        "phone": "555-5678",
+        "website": "http://businesstwo.com",
+        "image": "images/business2.jpg",
+        "membershipLevel": 2
+    }
+    
+]
