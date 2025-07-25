@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function fetchWeatherData() {
     const apiKey = 'YOUR_API_KEY';
-    const city = 'KURUMAN'; // Change to your chamber location
+    const city = 'KURUMAN'; 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     fetch(url)
