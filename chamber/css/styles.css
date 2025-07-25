@@ -2,19 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f4f4f4; /* Background color */
 }
 
 header {
-    background: #007BFF;
+    background-color: #007BFF; /* Primary color */
     color: white;
     padding: 10px 0;
     text-align: center;
 }
 
 nav ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
@@ -23,24 +22,39 @@ nav ul li {
     margin: 0 15px;
 }
 
-#members-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
-.card {
-    background: white;
-    border: 1px solid #ddd;
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.cta-button {
+    background-color: #28A745; /* Secondary color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
     border-radius: 5px;
-    margin: 10px;
-    padding: 15px;
-    width: 200px;
+}
+
+.current-events, .weather, .company-spotlights {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #007BFF;
+    background-color: #007BFF; /* Primary color */
     color: white;
 }
