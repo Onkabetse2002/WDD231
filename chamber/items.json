@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Kuruman Eye",
+        "address": "Kuruman, Northern Cape",
+        "description": "A natural spring that is a popular tourist attraction.",
+        "image": "kuruman-eye.webp"
+    },
+    {
+        "name": "Moffat Mission Station",
+        "address": "Kuruman, Northern Cape",
+        "description": "Historical site with a rich cultural heritage.",
+        "image": "moffat-mission.webp"
+    },
+    {
+        "name": "Kalahari Mall",
+        "address": "Kuruman, Northern Cape",
+        "description": "A shopping center with various local and international stores.",
+        "image": "kalahari-mall.webp"
+    },
+    {
+        "name": "Kuruman Golf Club",
+        "address": "Kuruman, Northern Cape",
+        "description": "A scenic golf course open to the public.",
+        "image": "golf-club.webp"
+    },
+    {
+        "name": "Local Artisans Market",
+        "address": "Kuruman, Northern Cape",
+        "description": "A market showcasing local crafts and products.",
+        "image": "artisans-market.webp"
+    },
+    {
+        "name": "Kuruman Nature Reserve",
+        "address": "Kuruman, Northern Cape",
+        "description": "A reserve with diverse wildlife and hiking trails.",
+        "image": "nature-reserve.webp"
+    },
+    {
+        "name": "Historical Museum",
+        "address": "Kuruman, Northern Cape",
+        "description": "Museum dedicated to the history of Kuruman.",
+        "image": "historical-museum.webp"
+    },
+    {
+        "name": "The Kalahari Experience",
+        "address": "Kuruman, Northern Cape",
+        "description": "An interactive experience showcasing the Kalahari Desert.",
+        "image": "kalahari-experience.webp"
+    }
+]
