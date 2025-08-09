@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creative Web Solutions - Professional web design and development services">
+    <meta name="author" content="Your Name">
+    <meta property="og:title" content="Creative Web Solutions">
+    <meta property="og:description" content="Professional web design and development services">
+    <meta property="og:type" content="website">
+    <title>Creative Web Solutions - Home</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="/finalproject/styles/final.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">Creative Web</div>
+            <button class="hamburger">☰</button>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact" class="btn contact-btn">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Digital Presence</h1>
+            <p>We create beautiful, functional websites that help businesses grow and reach their full potential in the digital world.</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid" id="services-container">
+            <!-- Dynamic content will be inserted here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="testimonials-container">
+            <h2 class="section-title">What Our Clients Say</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial active">
+                    <p class="testimonial-text">"Creative Web transformed our online presence completely. Our website traffic has increased by 200% since launch!"</p>
+                    <p class="testimonial-author">— Sarah Johnson, Marketing Director</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"The team was professional and delivered exactly what we needed on time and within budget. Highly recommended!"</p>
+                    <p class="testimonial-author">— Michael Chen, CEO</p>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"Outstanding service and support. They continue to help us grow our digital strategy years after our initial project."</p>
+                    <p class="testimonial-author">— Emily Rodriguez, Small Business Owner</p>
+                </div>
+                <div class="carousel-controls">
+                    <button class="prev-testimonial">❮</button>
+                    <button class="next-testimonial">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Creative Web</h3>
+                <p>Building digital experiences that matter.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Twitter">t</a>
+                    <a href="#" aria-label="Instagram">i</a>
+                    <a href="#" aria-label="LinkedIn">in</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <p>123 Web Street<br>Digital City, WC 12345</p>
+                <p>Email: info@creativeweb.com<br>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; <span id="current-year"></span> Creative Web Solutions. All rights reserved.</p>
+            <p><a href="attributions.html">Attributions</a> | <a href="https://example.com/video-demo" target="_blank">View Project Video</a></p>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal" id="contact-modal">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Close modal">&times;</button>
+            <h2>Contact Us</h2>
+            <form id="contact-form" method="post" action="form-action.html">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/finalproject/scripts/final.js" type="module"></script>
+</body>
+</html>
